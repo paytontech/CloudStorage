@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "CloudStorage",
+    name: "CloudStorage2",
     platforms: [
         .macOS(.v10_15),
         .iOS(.v13),
@@ -10,11 +10,11 @@ let package = Package(
         .watchOS(.v7)
     ],
     products: [
-        .library(name: "CloudStorage", targets: ["CloudStorage"]),
+        .library(name: "CloudStorage2", targets: ["CloudStorage2"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "CloudStorage"),
+        .target(name: "CloudStorage2"),
     ]
 )
 
