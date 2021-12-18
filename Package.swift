@@ -7,6 +7,7 @@ let package = Package(
         .macOS(.v10_15),
         .iOS(.v13),
         .tvOS(.v13),
+        .watchOS(.v7)
     ],
     products: [
         .library(name: "CloudStorage", targets: ["CloudStorage"]),
